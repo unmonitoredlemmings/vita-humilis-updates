@@ -6,6 +6,13 @@ This repository hosts release packages, checksums and release notes for Vita Hum
 
 ## Install an update
 
+Installed Windows x64 copies running 0.2.3 or later can use **Check for updates →
+Download and install**. Vita Humilis downloads and verifies the package, saves
+your current book, installs the new version and reopens it. You can cancel while
+the package downloads or is being prepared. The previous installation is kept.
+
+For a first installation, a portable copy, or an upgrade from 0.2.2 or earlier:
+
 1. Save your work and close Vita Humilis.
 2. Download the Windows setup ZIP from the latest release.
 3. Extract the entire ZIP, keeping its installer and payload folders together.
@@ -19,7 +26,9 @@ Open **Check for updates**, enter `unmonitoredlemmings/vita-humilis-updates`, th
 
 Version 0.2.2 bundles this update source. If an older saved setting overrides it, choose **Use publisher source & check**.
 
-The app checks for newer stable releases and opens the download page. Installation is manual; small binary patches and unattended installation are not implemented.
+The app checks for newer stable releases. In-app installation uses the full
+verified package and starts only when you choose **Download and install**.
+Portable copies and other platforms retain the manual download option.
 
 ## Cloud pilot
 
